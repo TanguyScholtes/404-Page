@@ -529,3 +529,22 @@ a:hover, a:focus {
 h1, h2, h3, h4, h5, h6 {
   color: #e12d00;
 }
+
+.footer {
+  vertical-align: middle;
+  font-size: 0.8em;
+  width: 90%;
+  max-width: 1140px;
+  padding: 1.5em 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.legal {
+  margin: 0 auto 1.5em auto;
+}
+
+.pixel-heart {
+  width: 1em;
+  margin: auto 1px 0 1px;
+}
