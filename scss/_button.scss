@@ -1,0 +1,40 @@
+.return{
+    margin: 3em 0;
+}
+
+#pulsing-button{
+    &:hover, &:focus{
+        -webkit-animation: pulse 1s ease 0s alternate infinite;
+        -moz-animation: pulse 1s ease 0s alternate infinite;
+        -o-animation: pulse 1s ease 0s alternate infinite;
+        -ms-animation: pulse 1s ease 0s alternate infinite;
+        animation: pulse 1s ease 0s alternate infinite;
+    }
+}
+
+.button{
+    display: inline-block;
+    color: $button-text;
+    background-color: $button-background;
+    border-bottom: 8px solid $button-border;
+    font-size: 1.125em;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 1em;
+    padding: 1em 2em;
+    transition: background-color 500ms ease,
+                border-bottom 500ms ease;
+
+    &:hover, &:focus{
+        text-shadow: 2px 2px 10px $text-shadow;
+        color: $button-text-hover;
+        background-color: $button-background-hover;
+        border-bottom: 8px solid $button-border-hover;
+        transition: background-color 500ms ease,
+                    border-bottom 500ms ease;
+    }
+}
+
+.shuttle{
+    margin-right: 1em;
+}

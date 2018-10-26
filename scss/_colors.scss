@@ -1,5 +1,5 @@
-/*--- General ---*/
 $x-wing-orange: #c0611e;
+
 $background: black;
 $text: white;
 $text-emphasis: $x-wing-orange;
@@ -8,3 +8,10 @@ $title: $text-emphasis;
 
 $link: $x-wing-orange;
 $link-hover: lighten($link, 20%);
+
+$button-text: white;
+$button-background: $x-wing-orange;
+$button-border: darken($button-background, 20%);
+$button-text-hover: white;
+$button-background-hover: darken($button-background, 20%);
+$button-border-hover: darken($button-background-hover, 10%);

@@ -7,6 +7,9 @@
 /* ------- Colors ------- */
 @import "colors";
 
+/* ------- Animations ------- */
+@import "animations";
+
 /* ------- Fonts ------- */
 @import "fonts";
 
@@ -28,5 +31,7 @@ h1, h2, h3, h4, h5, h6{
     color: $title;
 }
 
+@import "space";
 @import "main";
 @import "footer";
+@import "button";

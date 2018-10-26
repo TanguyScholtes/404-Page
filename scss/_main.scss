@@ -10,4 +10,9 @@
     width: 90%;
     margin: 4em auto;
     max-width: 3000px;
+    -webkit-animation: hover 4s linear 0s infinite;
+    -moz-animation: hover 4s linear 0s infinite;
+    -o-animation: hover 4s linear 0s infinite;
+    -ms-animation: hover 4s linear 0s infinite;
+    animation: hover 4s linear 0s infinite;
 }
