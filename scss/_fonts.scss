@@ -1,9 +1,21 @@
-@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Open+Sans');
+@font-face {
+	font-family: "Open Sans";
+    font-style: normal;
+	font-weight: 400;
+	src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Star Jedi";
+    font-style: normal;
+	font-weight: 400;
+	src: url("../fonts/Starjedi.ttf") format("truetype");
+}
 
 body{
     font-family: 'Open Sans', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6{
-    font-family: 'Bree Serif', serif;
+    font-family: 'Star Jedi', serif;
 }

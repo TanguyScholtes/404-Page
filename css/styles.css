@@ -6,7 +6,6 @@
 /**
  * Correct `block` display not defined in IE 6/7/8/9 and Firefox 3.
  */
-@import url("https://fonts.googleapis.com/css?family=Bree+Serif|Open+Sans");
 article,
 aside,
 details,
@@ -503,31 +502,59 @@ table {
 /* ------- Colors ------- */
 /*--- General ---*/
 /* ------- Fonts ------- */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Star Jedi";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Starjedi.ttf") format("truetype");
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Bree Serif', serif;
+  font-family: 'Star Jedi', serif;
 }
 
 /* ------- General Styles -------*/
 body {
   font-size: 18px;
-  background-color: #e6e6e6;
-  color: black;
+  background-color: black;
+  color: white;
 }
 
 a {
-  color: #0046e1;
+  color: #c0611e;
 }
 
 a:hover, a:focus {
-  color: #4881ff;
+  color: #e6965e;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #e12d00;
+  color: #c0611e;
+}
+
+.main {
+  width: 90%;
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.ship {
+  display: block;
+  width: 90%;
+  margin: 4em auto;
+  max-width: 3000px;
 }
 
 .footer {

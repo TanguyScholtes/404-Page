@@ -1,0 +1,13 @@
+.main{
+    width: $width;
+    max-width: $max-width;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ship{
+    display: block;
+    width: 90%;
+    margin: 4em auto;
+    max-width: 3000px;
+}

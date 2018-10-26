@@ -1,10 +1,10 @@
 /*--- General ---*/
-$background: rgb(230, 230, 230);
-$text: black;
-$text-emphasis: rgb(225, 45, 0);
+$x-wing-orange: #c0611e;
+$background: black;
+$text: white;
+$text-emphasis: $x-wing-orange;
 $text-shadow: black;
 $title: $text-emphasis;
 
-$link: rgb(0, 70, 225);
+$link: $x-wing-orange;
 $link-hover: lighten($link, 20%);
-$link-visited: darken($link, 20%);
