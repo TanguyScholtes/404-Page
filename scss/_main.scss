@@ -3,16 +3,22 @@
     max-width: $max-width;
     margin: 0 auto;
     text-align: center;
+    min-height: calc(100vh - 4.7em); //height of footer is 4.6667 em
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.ship{
-    display: block;
-    width: 90%;
-    margin: 4em auto;
-    max-width: 3000px;
-    -webkit-animation: hover 4s linear 0s infinite;
-    -moz-animation: hover 4s linear 0s infinite;
-    -o-animation: hover 4s linear 0s infinite;
-    -ms-animation: hover 4s linear 0s infinite;
-    animation: hover 4s linear 0s infinite;
+.main-subtitle{
+    color: $title;
+    font-family: "Star Jedi", sans-serif;
+}
+
+.main-title, .main-subtitle, .content{
+    text-shadow: 2px 2px 0 $text-shadow,
+                2px 2px 5px $text-shadow;
+}
+
+.content{
+    margin: 5em 0;
 }

@@ -7,25 +7,28 @@ body{
     height: 100%;
 }
 
-.stars, .twinkling, .clouds {
+.stars, .twinkling, .clouds, .ship, .darken {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    width: 100%;
     height: 100%;
     display: block;
 }
 
+.stars, .twinkling, .clouds, .darken{
+    width: 100%;
+}
+
 .stars {
     background: #000 url('../img/stars.png') repeat top center;
-    z-index: -3;
+    z-index: -5;
 }
 
 .twinkling{
     background: transparent url('../img/twinkling.png') repeat top center;
-    z-index: -2;
+    z-index: -4;
     -moz-animation: twinkle 200s linear infinite;
     -ms-animation: twinkle 200s linear infinite;
     -o-animation: twinkle 200s linear infinite;
@@ -35,10 +38,26 @@ body{
 
 .clouds{
     background: transparent url('../img/clouds.png') repeat top center;
-    z-index: -1;
+    z-index: -3;
     -moz-animation: clouds 200s linear infinite;
     -ms-animation: clouds 200s linear infinite;
     -o-animation: clouds 200s linear infinite;
     -webkit-animation: clouds 200s linear infinite;
     animation: clouds 200s linear infinite;
+}
+
+.ship{
+    margin: 0 auto;
+    max-height: 1800px;
+    z-index: -2;
+    -webkit-animation: hover 4s linear 0s infinite;
+    -moz-animation: hover 4s linear 0s infinite;
+    -o-animation: hover 4s linear 0s infinite;
+    -ms-animation: hover 4s linear 0s infinite;
+    animation: hover 4s linear 0s infinite;
+}
+
+.darken{
+    z-index: -1;
+    background-color: $darken;
 }

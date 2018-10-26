@@ -18,6 +18,7 @@ body{
     font-size: $base-text-size;
     background-color: $background;
     color: $text;
+    overflow: hidden;
 }
 
 a{
