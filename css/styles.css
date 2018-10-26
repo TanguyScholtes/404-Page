@@ -754,7 +754,6 @@ body {
   font-size: 18px;
   background-color: black;
   color: white;
-  overflow: hidden;
 }
 
 a {
@@ -778,28 +777,25 @@ body {
   height: 100%;
 }
 
-.stars, .twinkling, .clouds, .ship, .darken {
+.stars, .twinkling, .clouds {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
+  width: 100%;
   height: 100%;
   display: block;
 }
 
-.stars, .twinkling, .clouds, .darken {
-  width: 100%;
-}
-
 .stars {
   background: #000 url("../img/stars.png") repeat top center;
-  z-index: -5;
+  z-index: -3;
 }
 
 .twinkling {
   background: transparent url("../img/twinkling.png") repeat top center;
-  z-index: -4;
+  z-index: -2;
   -moz-animation: twinkle 200s linear infinite;
   -ms-animation: twinkle 200s linear infinite;
   -o-animation: twinkle 200s linear infinite;
@@ -809,7 +805,7 @@ body {
 
 .clouds {
   background: transparent url("../img/clouds.png") repeat top center;
-  z-index: -3;
+  z-index: -1;
   -moz-animation: clouds 200s linear infinite;
   -ms-animation: clouds 200s linear infinite;
   -o-animation: clouds 200s linear infinite;
@@ -817,44 +813,23 @@ body {
   animation: clouds 200s linear infinite;
 }
 
-.ship {
-  margin: 0 auto;
-  max-height: 1800px;
-  z-index: -2;
-  -webkit-animation: hover 4s linear 0s infinite;
-  -moz-animation: hover 4s linear 0s infinite;
-  -o-animation: hover 4s linear 0s infinite;
-  -ms-animation: hover 4s linear 0s infinite;
-  animation: hover 4s linear 0s infinite;
-}
-
-.darken {
-  z-index: -1;
-  background-color: rgba(0, 0, 0, 0.75);
-}
-
 .main {
   width: 90%;
   max-width: 1140px;
   margin: 0 auto;
   text-align: center;
-  min-height: calc(100vh - 4.7em);
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
-.main-subtitle {
-  color: #c0611e;
-  font-family: "Star Jedi", sans-serif;
-}
-
-.main-title, .main-subtitle, .content {
-  text-shadow: 2px 2px 0 black, 2px 2px 5px black;
-}
-
-.content {
-  margin: 5em 0;
+.ship {
+  display: block;
+  width: 90%;
+  margin: 4em auto;
+  max-width: 3000px;
+  -webkit-animation: hover 4s linear 0s infinite;
+  -moz-animation: hover 4s linear 0s infinite;
+  -o-animation: hover 4s linear 0s infinite;
+  -ms-animation: hover 4s linear 0s infinite;
+  animation: hover 4s linear 0s infinite;
 }
 
 .footer {
