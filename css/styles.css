@@ -898,7 +898,7 @@ body {
   text-decoration: none;
   border-radius: 1em;
   padding: 1em 2em;
-  transition: background-color 500ms ease, border-bottom 500ms ease;
+  transition: background-color 500ms ease, border-bottom 500ms ease;
 }
 
 .button:hover, .button:focus {
@@ -906,7 +906,7 @@ body {
   color: white;
   background-color: #683410;
   border-bottom: 8px solid #3c1e09;
-  transition: background-color 500ms ease, border-bottom 500ms ease;
+  transition: background-color 500ms ease, border-bottom 500ms ease;
 }
 
 .shuttle {

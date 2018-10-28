@@ -1,7 +1,9 @@
 # 404-Page
 
-4th exercise oh the HTML &amp; CSS branch of "La prairie", part of the BeCode LIE-Hamilton-1.7 studentship.  
+4th exercise on the HTML &amp; CSS branch of "La prairie", part of the BeCode LIE-Hamilton-1.7 studentship.  
 You can find [the other HTML & CSS exercises of "La prairie" here](https://github.com/TanguyScholtes/learning-environment).
+
+To see the latest version of this 404 page, please check out [this repository's GitHub Page](https://tanguyscholtes.github.io/404-Page/).
 
 ## Objectifs
 
